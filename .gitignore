@@ -1,0 +1,5 @@
+/Carthage
+.DS_Store
+Cartfile.resolved
+*.xcuserstate
+
