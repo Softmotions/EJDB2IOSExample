@@ -5,7 +5,7 @@ storage engine on board.
 
 ## Prerequisites
 
-* [Carthage][https://github.com/Carthage/Carthage]
+* [Carthage](https://github.com/Carthage/Carthage)
 * cmake `v3.15` or greater
 * XCode
 
