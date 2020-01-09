@@ -3,4 +3,5 @@
 .DS_Store
 Cartfile.resolved
 *.xcuserstate
+Podfile.lock
 

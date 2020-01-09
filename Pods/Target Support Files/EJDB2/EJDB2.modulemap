@@ -1,0 +1,6 @@
+framework module EJDB2 {
+  umbrella header "EJDB2-umbrella.h"
+
+  export *
+  module * { export * }
+}
