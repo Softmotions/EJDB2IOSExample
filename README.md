@@ -6,6 +6,7 @@ storage engine on board.
 ## Prerequisites
 
 * [CocoaPods](https://cocoapods.org)
+* cmake
 * XCode
 
 ## Setup
@@ -25,6 +26,6 @@ end
 pod install --verbose
 ```
 
-Initial build takes some time - be patient
+Initial build takes some time - so be patient
 
 [Also take a look on Carthage app version](https://github.com/Softmotions/EJDB2IOSExample/tree/master)
