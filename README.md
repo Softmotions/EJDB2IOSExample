@@ -26,3 +26,5 @@ pod install --verbose
 ```
 
 Initial build takes some time - be patient
+
+[Also take a look on Carthage app version](https://github.com/Softmotions/EJDB2IOSExample/tree/master)
