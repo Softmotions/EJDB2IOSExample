@@ -6,7 +6,7 @@ storage engine on board.
 ## Prerequisites
 
 * [Carthage](https://github.com/Carthage/Carthage)
-* cmake `v3.15` or greater
+* cmake
 * XCode
 
 ## Setup
@@ -18,5 +18,6 @@ cd EJDB2IOSExample
 carthage update --verbose
 ```
 
+Initial build takes some time - so be patient
 
 [Also take a look on Cocoapods app version](https://github.com/Softmotions/EJDB2IOSExample/tree/cocoapods)
