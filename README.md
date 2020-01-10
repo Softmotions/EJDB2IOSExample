@@ -1,18 +1,28 @@
 # EJDB2 Example iOS project
 
-This Application is based on original https://github.com/devxoul/SwiftUITodo with [EJDB2](https://ejdb.org) 
-storage engine on board. 
+This Application is based on original https://github.com/devxoul/SwiftUITodo with [EJDB2](https://ejdb.org)
+storage engine on board.
 
 ## Prerequisites
 
-* [Carthage](https://github.com/Carthage/Carthage)
+* [CocoaPods](https://cocoapods.org)
 * XCode
 
-## Setup 
+## Setup
+
+Setup `Podfile` like this:
+
+```ruby
+platform :ios, '9.0'
+
+target 'EJDB2ExampleApp' do
+  use_frameworks!
+  pod "EJDB2"
+end
+```
 
 ```sh
-git clone https://github.com/Softmotions/EJDB2IOSExample
-cd EJDB2IOSExample
-
-carthage update --verbose
+pod install --verbose
 ```
+
+Initial build takes some time - be patient
